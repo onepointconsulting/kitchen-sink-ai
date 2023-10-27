@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "websocket-server"
+version = "0.1.0"
+description = "Simple websocket server experiment in Python."
+authors = ["Gil Fernandes <gil.fernandes@onepointltd.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-socketio = "^5.10.0"
+eventlet = "^0.33.3"
+websocket-client = "^1.6.4"
+gunicorn = "^21.2.0"
+waitress = "^2.1.2"
+aiohttp = "^3.8.6"
+python-dotenv = "^1.0.0"
+farm-haystack = "^1.21.2"
+pyautogen = "^0.1.13"
+
+[tool.poetry.dev-dependencies]
+black = "^23.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
